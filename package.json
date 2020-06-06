@@ -1,0 +1,20 @@
+{
+  "name": "blog-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev nodemon app.js",
+    "build": "cross-env NODE_ENV=prod nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "xss": "^1.0.6"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}
